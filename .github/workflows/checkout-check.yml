@@ -1,5 +1,5 @@
 name: Checkout Check Workflow   # チェックアウト確認用のワークフロー
-on: [push]
+on: [workflow_dispatch]          # 手動でワークフローを実行できるようにする
 
 jobs:
   # ① チェックアウトを【しない】ジョブ
